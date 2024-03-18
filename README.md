@@ -13,11 +13,11 @@
 
 ## Screenshots
 
-![screenshot](./public/Autocomplete.jpg)
+![screenshot](./public/Autocomplete.JPG)
 
 ## Live Demo
 
-Not yet deployed
+[AutoComplete](https://autocomplete-nu.vercel.app/)
 
 ## How to use
 
