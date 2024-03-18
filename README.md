@@ -1,30 +1,77 @@
-# React + TypeScript + Vite
+# Part 1 - React TypeScript AutoComplete component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Take home assignment for Deel's Frontend Engineer (React.js) position
 
-Currently, two official plugins are available:
+## Build with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Language: TypeScript
+- Library: React
+- Build tool: Vite
+- API: [jsonplaceholder](https://jsonplaceholder.typicode.com/users)
+- Styling: Tailwind CSS
+- Deployment: [Vercel](https://vercel.com)
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![screenshot](./public/Autocomplete.jpg)
 
-- Configure the top-level `parserOptions` property like this:
+## Live Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Not yet deployed
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## How to use
+
+- Clone the repository `git clone https://github.com/Hombre/autocomplete`
+- Run `npm install`
+- Run `npm run dev`
+- Open `http://localhost:5173`
+
+## 🚀 Features
+
+**Please prepare an auto-complete component in React TypeScript.**
+
+## Requirements
+
+1. Performance matters as we are expecting a production ready
+   component.
+2. You cannot use any 3rd party libraries - only pure React and internal
+   DOM functions.
+3. You should use TypeScript and write proper interfaces and types.
+4. The function to filter the data should be asynchronous. You can use
+   mock data (such as a JSON array), but the function which uses it
+   should be asynchronous (similar to a real REST call).
+5. It should have basic working CSS. No need for anything fancy (such
+   as drop shadows etc).
+6. You need to handle all non-standard/edge use-cases - it should have
+   a perfect user-experience.
+7. Highlight the matching part of the text, in addition to showing it.
+8. No external state management libraries (refer to #1 as well), only
+   native React method.
+9. Use only functional components with hooks.
+10. Shortcuts and hacks are ok - but you have to add comments on what
+    you are doing and why.
+11. Add a <ins>README.md</ins> file explaining how to run the project.
+12. <ins>Bonus Point:</ins> Load data using a real API call to some resource.
+13. Part two (questions and answers) is [here](./questions.md).
+
+## Author
+
+👤 **Yuriy Chamkoriyski**
+
+- GitHub: [@Hombre2014](https://github.com/Hombre2014)
+- Twitter: [@Chamkoriyski](https://twitter.com/Chamkoriyski)
+- LinkedIn: [axebit](https://linkedin.com/in/axebit)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Hombre/autocomplete/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./license.md) licensed.
