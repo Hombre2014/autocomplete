@@ -2,8 +2,6 @@
 
 > Take home assignment for Deel's Frontend Engineer (React.js) position
 
-<hr>
-
 ## Questions
 
 1. What is the difference between Component and PureComponent?

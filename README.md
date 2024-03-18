@@ -52,6 +52,7 @@ Not yet deployed
     you are doing and why.
 11. Add a <ins>README.md</ins> file explaining how to run the project.
 12. <ins>Bonus Point:</ins> Load data using a real API call to some resource.
+13. Part two (questions and answers) is [here](./questions.md).
 
 ## Author
 
